@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script defer src="index.js"></script>
+  <title>Super stars film ratings</title>
+</head>
+<body>
+  <h1>Super stars</h1>
+  <div class="container">
+    <form class="select-film">
+      <select name="" id="product-select">
+        <option value="" disabled selected value="0">Select Film</option>
+        <option value="raazi">Raazi</option>
+        <option value="badhaaiHo">Badhaai Ho</option>
+        <option value="stree">Stree</option>
+        <option value="hindiMedium">Hindi Medium</option>
+        <option value="dangal">Dangal</option>
+        <option value="toiletEkPremKatha">Toilet: Ek Prem Katha</option>
+        <option value="bareillyKiBarfi">Bareilly Ki Barfi</option>
+        <option value="badrinathKiDulhania">Badrinath Ki Dulhania</option>
+        <option value="pink">Pink</option>
+        <option value="sultan">Sultan</option>
+        <option value="neerja">Neerja</option>
+        <option value="kapoorAndSons">Kapoor & Sons</option>
+        <option value="udtaPunjab">Udta Punjab</option>
+        <option value="bajiraoMastani">Bajirao Mastani</option>
+        <option value="piku">Piku</option>
+        <option value="tanuWedsManuReturns">Tanu Weds Manu Returns</option>
+        <option value="queen">Queen</option>
+        <option value="twoStates">Two States</option>
+        <option value="haider">Haider</option>
+        <option value="maryKom">Mary Kom</option>
+        <option value="pk">PK</option>
+        <option value="bhaagMilkhaBhaag">Bhaag Milkha Bhaag</option>
+        <option value="chennaiExpress">Chennai Express</option>
+        <option value="ramLeela">Goliyon Ki Raasleela Ram-Leela</option>
+        <option value="raanjhanaa">Raanjhanaa</option>
+        <option value="yehJawaaniHaiDeewani">Yeh Jawaani Hai Deewani</option>
+        <option value="barfi">Barfi!</option>
+        <option value="englishVinglish">English Vinglish</option>
+        <option value="kahaani">Kahaani</option>
+        <option value="vickyDonor">Vicky Donor</option>
+        <option value="zindagiNaMilegiDobara">Zindagi Na Milegi Dobara</option>
+        <option value="noOneKilledJessica">No One Killed Jessica</option>
+        <option value="donTwo">Don 2</option>
+        <option value="rockstar">Rockstar</option>
+        <option value="theDirtyPicture">The Dirty Picture</option>
+      </select>
+    </form>
+    <form class="select-film">
+      <input type="number" id="rating-control" step="0.1" max="5" placeholder="  Award a rating of up to five super stars" disabled/>
+    </form>
+    <table class="table-striped">
+      <tr>
+        <th>Film</th>
+        <th>Rating</th>
+        <tbody>
+          <tr class="raazi">
+            <td>Raazi</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="badhaaiHo">
+            <td>Badhaai Ho</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="stree">
+            <td>Stree</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="hindiMedium">
+            <td>Hindi Medium</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="dangal">
+            <td>Dangal</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="toiletEkPremKatha">
+            <td>Toilet: Ek Prem Katha</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="bareillyKiBarfi">
+            <td>Bareilly Ki Barfi</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="badrinathKiDulhania">
+            <td>Badrinath Ki Dulhania</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="pink">
+            <td>Pink</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="sultan">
+            <td>Sultan</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="neerja">
+            <td>Neerja</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="kapoorAndSons">
+            <td>Kapoor & Sons</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="udtaPunjab">
+            <td>Udta Punjab</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="bajiraoMastani">
+            <td>Bajirao Mastani</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="badlapur">
+            <td>Badlapur</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="bajrangiBhaijaan">
+            <td>Bajrangi Bhaijaan</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="piku">
+            <td>Piku</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="tanuWedsManuReturns">
+            <td>Tanu Weds Manu Returns</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="queen">
+            <td>Queen</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="twoStates">
+            <td>2 States</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="haider">
+            <td>Haider</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="maryKom">
+            <td>Mary Kom</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="pk">
+            <td>PK</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="bhaagMilkhaBhaag">
+            <td>Bhaag Milkha Bhaag</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="chennaiExpress">
+            <td>Chennai Express</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="ramLeela">
+            <td>Goliyon Ki Raasleela Ram-Leela</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="raanjhanaa">
+            <td>Raanjhanaa</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="yehJawaaniHaiDeewani">
+            <td>Yeh Jawaani Hai Deewani</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="barfi">
+            <td>Barfi!</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="englishVinglish">
+            <td>English Vinglish</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="kahaani">
+            <td>Kahaani</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="vickyDonor">
+            <td>Vicky Donor</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="zindagiNaMilegiDobara">
+            <td>Zindagi Na Milegi Dobara</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="noOneKilledJessica">
+            <td>No One Killed Jessica</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="donTwo">
+            <td>Don 2</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="rockstar">
+            <td>Rockstar</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+          <tr class="theDirtyPicture">
+            <td>The Dirty Picture</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner">
+                </div>
+                <span class="number-rating"></span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
